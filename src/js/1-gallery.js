@@ -69,7 +69,7 @@ galleryElement.innerHTML = galleryMarkup;
 const lightbox = new SimpleLightbox(".gallery a", {
   captionDelay: 250,
   captions: true,
-  captionSelector: "img",
+    captionsData: "alt",
 });
 lightbox.refresh();
 console.log(lightbox);
